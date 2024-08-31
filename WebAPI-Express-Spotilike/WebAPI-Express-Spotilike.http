@@ -1,0 +1,6 @@
+@WebAPI_Express_Spotilike_HostAddress = http://localhost:5022
+
+GET {{WebAPI_Express_Spotilike_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
