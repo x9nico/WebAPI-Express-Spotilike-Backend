@@ -1,8 +1,8 @@
-**Introduction**
+# Introduction 
 
 Ce projet est un projet inspiré de la plateforme Spotify, dans le but d'apprendre l'utilisation du Framework ASP .Net Core 8.0.
 
-**Prérequis**
+## Prérequis
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
 .NET SDK 8.0
@@ -10,9 +10,9 @@ Visual Studio 2022 ou Visual Studio Code
 Git (facultatif, mais recommandé)
 
 
-**Étapes d'installation**
+## Étapes d'installation
 
-***Cloner le dépôt***
+### Cloner le dépôt
 
 Ouvrez votre terminal ou votre invite de commandes et naviguez jusqu'au répertoire où vous souhaitez cloner le projet. Ensuite, utilisez la commande suivante pour cloner le projet :
 
