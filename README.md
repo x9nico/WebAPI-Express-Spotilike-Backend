@@ -56,9 +56,15 @@ dotnet run
 
 Le projet sera hébergé à https://localhost:5001 par défaut. Vous pouvez y accéder dans votre navigateur web. Si tout se passe bien, vous aurez accès à une page Swagger.
 
-***Dépannage***
+### Dépannage
 Si vous rencontrez des problèmes lors du processus d'installation, veuillez vérifier les points suivants :
 
 Assurez-vous d'avoir la version correcte de .NET SDK installée.
 Vérifiez que vous disposez des autorisations nécessaires pour cloner le dépôt et exécuter le projet.
 Si vous utilisez Visual Studio Code, assurez-vous d'avoir les extensions nécessaires installées pour le développement ASP.NET Core.
+
+
+### Problèmes rencontrés
+
+Le système d'authentification ne fonctionne pas tout à fait, suite à une manque de temps, et quelques complexité.
+De plus, l'application n'a pas pu être déployée sur Azure, suite à des problèmes administratifs vis-à-vis de mes droits d'étudiants.
