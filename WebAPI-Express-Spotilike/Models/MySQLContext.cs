@@ -17,6 +17,8 @@ namespace WebAPI_Express_Spotilike.Models
 
         public DbSet<WebAPI_Express_Spotilike.Models.MorceauItem> morceaux { get; set; }
 
+        public DbSet<WebAPI_Express_Spotilike.Models.UserItem> users { get; set; }
+
     }
 }
 

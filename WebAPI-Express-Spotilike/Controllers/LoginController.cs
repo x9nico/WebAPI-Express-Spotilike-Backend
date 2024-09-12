@@ -14,9 +14,12 @@ namespace WebAPI_Express_Spotilike.Controllers
     {
         private IConfiguration _config;
 
-        public LoginController(IConfiguration config)
+        private readonly MySQLContext _context;
+
+        public LoginController(IConfiguration config, MySQLContext context)
         {
             _config = config;
+            _context = context;
         }
 
         [AllowAnonymous]
@@ -57,10 +60,10 @@ namespace WebAPI_Express_Spotilike.Controllers
 
         private UserItem Authenticate(UserLogin userLogin)
         {
-            var currentUser = UserConstants.Users
+            var currentUser = _context.users
                 .FirstOrDefault(o =>
-                        o.NomUtilisateur.ToLower() == userLogin.Username.ToLower()
-                        && o.Password == userLogin.Password
+                        o.NomUtilisateur.ToLower() == userLogin.nomUtilisateur.ToLower()
+                        && o.Password == userLogin.password
                         );
 
             if (currentUser != null)

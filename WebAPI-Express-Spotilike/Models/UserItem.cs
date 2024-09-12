@@ -8,7 +8,7 @@ namespace WebAPI_Express_Spotilike.Models
 
         public long id { get; set; }
         
-        [Column("nom_utilisateur")]
+        [Column("nomUtilisateur")]
         public string NomUtilisateur { get; set; }
 
         
